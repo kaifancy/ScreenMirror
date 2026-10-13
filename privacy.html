@@ -1,43 +1,60 @@
 <!doctype html>
-<html lang="en" data-immersive-translate-page-theme="light"><head>
+<html lang="en">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for the MirrorHome iOS app.">
-  <title>Privacy Policy · MirrorHome</title>
+  <meta name="description" content="Privacy Policy for the Screen Mirror iOS app.">
+  <title>Privacy Policy · Screen Mirror</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="shell document">
-    <a class="back" href="index.html">← MirrorHome Legal</a>
+    <a class="back" href="index.html">← Screen Mirror Legal</a>
     <header>
-      <p class="eyebrow">MirrorHome</p>
+      <p class="eyebrow">Screen Mirror</p>
       <h1>Privacy Policy</h1>
       <p class="effective">Effective August 22, 2026</p>
     </header>
 
     <section>
       <h2>Overview</h2>
-      <p>MirrorHome is designed to discover compatible TVs and cast media over your local network. The app does not require an account and does not include advertising or third-party analytics.</p>
+      <p>Screen Mirror discovers compatible TVs and casts selected media over your local network. The app does not require an account and does not use advertising, third-party analytics, or tracking. Screen Mirror does not operate a cloud backend and does not automatically receive information from the app.</p>
+    </section>
+    <section>
+      <h2>Information handled on your device</h2>
+      <p>To provide its features, Screen Mirror may handle the current Wi-Fi network name, discovered TV names, models, capabilities and local-network addresses, photos or videos you select, recent device-scan diagnostics, onboarding status, the number of successful free media casts, and App Store subscription status. This information is used for discovery, connection, casting, troubleshooting, and access to paid features.</p>
     </section>
     <section>
       <h2>Local network and Wi-Fi</h2>
-      <p>MirrorHome uses local-network access to discover and communicate with TVs. With your permission, it reads the current Wi-Fi name to help confirm that your iPhone and TV are on the same network. This information is used on the device and is not sent to MirrorHome servers.</p>
+      <p>Screen Mirror uses Bonjour, SSDP/DLNA, and related local-network requests to find and communicate with compatible receivers. With Location permission, it reads the current Wi-Fi name to help confirm that your iPhone and TV are on the same network. The Wi-Fi name and discovered-device information stay on the device unless you choose to include them in a support email.</p>
     </section>
     <section>
-      <h2>Photos and videos</h2>
-      <p>Media you select is prepared temporarily on your device and delivered directly to the selected TV over the local network. MirrorHome does not upload your photos or videos to a cloud service. Temporary prepared files are managed by iOS and may remain in the app's temporary storage until the system removes them.</p>
+      <h2>Photos, videos, and local transmission</h2>
+      <p>Screen Mirror uses Apple's system photo picker, so it receives only the items you select rather than requesting unrestricted access to your photo library. Selected media may be converted into temporary JPEG or MP4 files. During DLNA casting, Screen Mirror runs a temporary local media server and sends a local HTTP URL to the selected TV. This connection is not encrypted and is intended only for a trusted local network. Screen Mirror does not upload the media to its own servers or intentionally transmit it outside the local network. The TV, router, email provider, and Apple services have their own data practices.</p>
     </section>
     <section>
-      <h2>Purchases and app data</h2>
-      <p>Subscriptions are processed by Apple through StoreKit. MirrorHome stores onboarding status and the number of successful free media casts on your device. Apple may process purchase information under Apple's own privacy policy.</p>
+      <h2>Local storage and retention</h2>
+      <p>Onboarding status is stored in UserDefaults. The successful free-cast count is stored in the iOS Keychain, with UserDefaults used as a fallback; Keychain data may persist after reinstall depending on iOS behavior. Up to 40 recent scan-log entries, which may include Wi-Fi status and discovered TV names and protocols, are held only in memory and are cleared when the app process ends. Prepared media remains in the app's temporary directory until Screen Mirror or iOS removes it. The local media server stops sharing content when the casting session is released or the app process ends.</p>
     </section>
     <section>
-      <h2>Support diagnostics</h2>
-      <p>If you choose Contact Support, MirrorHome prepares an email containing the selected TV brand, detected protocols, iOS version, app version, Wi-Fi status, and recent scan logs. You can review or remove this information before sending it. Nothing is sent automatically.</p>
+      <h2>Subscriptions and Apple</h2>
+      <p>Subscriptions and entitlement status are processed through Apple StoreKit. Apple may receive and process purchase, device, and account information under Apple's own privacy policy. Screen Mirror reads verified StoreKit entitlement status to unlock Premium but does not receive your full payment-card details.</p>
+    </section>
+    <section>
+      <h2>Support diagnostics and email</h2>
+      <p>If you choose Contact Support, Screen Mirror prepares an email containing the selected TV brand and name, detected protocols, Wi-Fi name or permission status, iOS version, app version, and recent scan logs. You can review, edit, or remove this information before sending. Nothing is sent automatically. If you send the email, your mail provider transmits it to us and we retain the correspondence only as reasonably needed to respond, troubleshoot, prevent abuse, and meet legal obligations.</p>
+    </section>
+    <section>
+      <h2>Your choices and deletion</h2>
+      <p>You can change Local Network and Location permissions in iOS Settings, choose different media, stop casting to end local sharing, or decline to send a support email. Screen Mirror has no user account or cloud profile to delete. You can remove ordinary local app data by deleting the app, subject to the Keychain behavior described above. To request deletion of support correspondence held by us, email the address below.</p>
+    </section>
+    <section>
+      <h2>Security and third parties</h2>
+      <p>Screen Mirror limits processing to the device and local network where practical. No method of local or electronic transmission is completely secure, so use the app only on a network and with a TV you trust. We do not sell personal information. If we use a service provider to handle information in the future, we will require protections consistent with this policy and update this notice as appropriate.</p>
     </section>
     <section>
       <h2>Children's privacy</h2>
-      <p>MirrorHome is not directed to children under 13 and does not knowingly collect personal information from children.</p>
+      <p>Screen Mirror is not directed to children under 13 and does not knowingly collect personal information from children.</p>
     </section>
     <section>
       <h2>Changes to this policy</h2>
@@ -45,12 +62,10 @@
     </section>
     <section>
       <h2>Contact</h2>
-      <p>For privacy questions, email <a href="mailto:support@mirrorhome.app">fei316411@gmail.com</a>.</p>
+      <p>For privacy questions or deletion requests concerning support correspondence, email <a href="mailto:fei316411@gmail.com">fei316411@gmail.com</a>.</p>
     </section>
 
     <footer><a href="terms.html">Terms of Use</a> · <a href="index.html">Legal home</a></footer>
   </main>
-
-
-
-</body><div id="codex-agent-overlay-root" data-codex-agent-overlay-root="true"></div><div id="immersive-translate-browser-popup" style="all: initial"></div></html>
+</body>
+</html>
